@@ -34,13 +34,22 @@ export default function Home() {
           >
             Paste Mode
           </button>
-          
+          <div>
+            <p className="text-gray-500 text-sm italic">
+              In Paste Mode, you can paste.
+            </p>
+          </div>
           <button
             onClick={() => handleModeSelection('copy')}
             className="w-64 py-4 px-6 bg-green-500 text-white font-semibold rounded-lg shadow-md hover:bg-green-600 transition-colors duration-200"
           >
             Copy Mode
           </button>
+          <div>
+            <p className="text-gray-500 text-sm italic">
+              In Copy Mode, you can copy.
+            </p>
+          </div>
         </div>
       </div>
     </div>
